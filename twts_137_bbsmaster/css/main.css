@@ -1965,9 +1965,9 @@ nav a:hover {
 }
 
 .p2-gradient-bg, .primary-btn:after, .ilene-tabs .nav-item:hover, .ilene-tabs .nav-item.active {
-  background-image: -moz-linear-gradient(0deg, #f58e9a 0%, #fbe44c 100%);
-  background-image: -webkit-linear-gradient(0deg, #f58e9a 0%, #fbe44c 100%);
-  background-image: -ms-linear-gradient(0deg, #f58e9a 0%, #fbe44c 100%);
+  background-image: -moz-linear-gradient(0deg, #25b7c4 0%, #87CEEB 100%);
+  background-image: -webkit-linear-gradient(0deg, #25b7c4 0%, #87CEEB 100%);
+  background-image: -ms-linear-gradient(0deg, #25b7c4 0%, #87CEEB 100%);
 }
 
 .p1-gradient-color {
@@ -2045,9 +2045,9 @@ nav a:hover {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-image: -moz-radial-gradient(50% 50%, circle closest-side, #7539dd 0%, #7034db 100%);
-  background-image: -webkit-radial-gradient(50% 50%, circle closest-side, #7539dd 0%, #7034db 100%);
-  background-image: -ms-radial-gradient(50% 50%, circle closest-side, #7539dd 0%, #7034db 100%);
+  background-image: -moz-radial-gradient(50% 50%, circle closest-side, #25b7c4 0%, #25b7c4 100%);
+  background-image: -webkit-radial-gradient(50% 50%, circle closest-side, #25b7c4 0%, #25b7c4 100%);
+  background-image: -ms-radial-gradient(50% 50%, circle closest-side, #25b7c4 0%, #25b7c4 100%);
   top: 0;
   left: 0;
   z-index: -1;
@@ -2254,9 +2254,11 @@ nav a:hover {
 }
 
 .video-area .overlay-bg {
+	/*
   background-image: -moz-radial-gradient(50% 50%, circle closest-side, #7539dd 0%, #7034db 100%);
   background-image: -webkit-radial-gradient(50% 50%, circle closest-side, #7539dd 0%, #7034db 100%);
   background-image: -ms-radial-gradient(50% 50%, circle closest-side, #7539dd 0%, #7034db 100%);
+	*/
   opacity: .8;
 }
 
