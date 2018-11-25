@@ -41,5 +41,10 @@ $(document).ready(function(){
     $(document).ready(function() {
         $('#mc_embed_signup').find('form').ajaxChimp();
     });      
-
+	$('#btn-about').on('click',function(){
+		$("html,body").animate({
+			scrollTop:$('#about-area').offset().top
+		},350);
+	});
+	$(document).scrollTop();
  });
