@@ -46,5 +46,17 @@ $(document).ready(function(){
 			scrollTop:$('#about-area').offset().top
 		},350);
 	});
-	$(document).scrollTop();
+	/*
+	$(window).scroll(function(){
+		var h = $("#featured-area").offset().top;
+         if($(this).scrollTop() > h ){
+            // 滚动到指定位置
+            $("#featured-area").fadeIn();
+ 
+        } else {
+            $("#featured-area").fadeIn("slow");
+        }
+	});
+	*/
+	
  });
